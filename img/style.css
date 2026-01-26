@@ -31,11 +31,20 @@ h1 {
 }
 
 .photo-card {
-    position: relative;;
-    width: 100px;
-    height: 100px;
+    position: relative;
+    width: 300px;
+    height: 300px;
     background-image: url("./cork.png");
     background-position: center;
+}
+
+.pin {
+    position: absolute;
+    top: 50px;
+    width: 50px;
+    left: 50%;
+    transform: translate(50%); /*translate rieallinea perfettaente al centro ed  il % serve a mettere la punina al centro della card*/
+
 }
 
 
