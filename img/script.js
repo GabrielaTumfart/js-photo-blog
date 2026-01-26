@@ -79,9 +79,12 @@ axios.get("https://lanciweb.github.io/demo/api/pictures/")
 
     //inizio l'inserimento del contenuto nella card
 
-   card.innerHTMLML =  <img class="pin" src="./pin.svg" alt="puntina">;
+   card.innerHTML =  '<img class="pin" src="./pin.svg" alt="puntina">';
 
-   card.innerHTMLML = <img
+   card.innerHTML = '<img class="photo" src="" alt=""';
+
+   card.innerHTML = '<p class="caption"</p>';
+
     
 
 
