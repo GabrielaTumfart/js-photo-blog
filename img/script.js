@@ -72,9 +72,6 @@ axios.get("https://lanciweb.github.io/demo/api/pictures/")
 
   data.forEach (item => {
 
-
-  
-
     //ora creo la struttura base della card
 
     const card = document.createElement("div")
@@ -86,7 +83,7 @@ axios.get("https://lanciweb.github.io/demo/api/pictures/")
 
    card.innerHTML =  '<img class="pin" src="./pin.svg" alt="puntina">';
 
-   card.innerHTML = '<img class="photo" src="" alt=""';
+   card.innerHTML = '<img class="photo" src="$" alt=""';
 
    card.innerHTML = '<p class="caption"</p>';
 
