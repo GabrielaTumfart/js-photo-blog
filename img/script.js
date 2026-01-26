@@ -76,6 +76,10 @@ axios.get("https://lanciweb.github.io/demo/api/pictures/")
 
     card.classList.add("photo-card");
     console.log(card);
+
+    //inizio l'inserimento del contenuto nella card
+
+   card.innerHTMLML =  <img class="pin" src="./pin.svg" alt="puntina"></img>
     
 
 
