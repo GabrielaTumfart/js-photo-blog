@@ -47,7 +47,7 @@ h1 {
     top: 50px;
     width: 50px;
     left: 50%;
-    transform: translate(50%); /*translate rieallinea perfettaente al centro ed  il % serve a mettere la punina al centro della card*/
+    transform: translateX(50%); /*translate rieallinea perfettaente al centro ed  il % serve a mettere la punina al centro della card*/
 
 }
 
@@ -58,9 +58,10 @@ h1 {
     object-fit: cover;
 }
 
+/* Didascalia: testo sotto la foto */
 .caption {
     margin-top: 10px;
-    font-size: small;
+    font-size: 1.2rem;
     text-align: center;
     
 }
