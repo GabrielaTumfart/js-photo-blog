@@ -54,6 +54,8 @@ axios.get("https://lanciweb.github.io/demo/api/pictures/")
         const data = response.data;
 
         // e controllo i dati ricevuti
-        console.log(data);
+        console.table(data);
         
     })
+
+
