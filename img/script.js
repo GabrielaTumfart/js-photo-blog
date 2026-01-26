@@ -72,9 +72,9 @@ axios.get("https://lanciweb.github.io/demo/api/pictures/")
 
     //ora creo la struttura base della card
 
-    cosnt card = document.createElement("div")
+    const card = document.createElement("div")
 
-    card.classList("photo-card");
+    card.classList.add("photo-card");
     console.log(card);
     
 
