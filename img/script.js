@@ -52,4 +52,8 @@ axios.get("https://lanciweb.github.io/demo/api/pictures/")
     .then(response => {
 // qui gestisco i dati, dunque: estraggo i dati della risposta
         const data = response.data;
+
+        // e controllo i dati ricevuti
+        console.log(data);
+        
     })
