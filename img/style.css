@@ -12,9 +12,16 @@ body {
     font-family: "Sometype Mono", monospace;
 }
 
+/* titolo principale */
 h1 {
     font-family: "Edu Tas Beginner", sans-serif;
     margin-top: 50px;
     font-size: 3rem;
     text-align: center;
+}
+
+/* Contenitore */
+
+board {
+    display: flex;
 }
