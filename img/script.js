@@ -49,7 +49,7 @@
 
 
 
-//ora seleziono il contenitore della card board sul CSS
+//ora seleziono il contenitore della card board sul CSS (Prima avevo scritto getElementById(board) ma era sbagliato perché getElementById richiede una stringa e funziona solo con gli id. Il mio elemento invece aveva una classe .board, quindi ho usato querySelector(”.board”) che accetta i selettori CSS.)
 const board = document.querySelector(".board") 
 
 //controllo che il contenitore esista
@@ -69,5 +69,9 @@ axios.get("https://lanciweb.github.io/demo/api/pictures/")
         console.table(data);
         
     })
+
+    //ora creo la struttura base della card
+
+    cosnt card = document.createElement("div")
 
 
