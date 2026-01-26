@@ -44,3 +44,9 @@
 
 //questi dati mi serviranno per genereare la card dinamica che serve per il milestone 3
 
+
+//ora faccio la chiamata GET con axios
+axios.get("https://lanciweb.github.io/demo/api/pictures/")
+    .then(response => {
+        
+    })
