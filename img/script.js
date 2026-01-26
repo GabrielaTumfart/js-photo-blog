@@ -50,7 +50,7 @@
 
 
 //ora seleziono il contenitore della card board sul CSS
-const board = document.getElementById(".board")
+const board = document.getElementById("board")
 
 //controllo che il contenitore esista
 console.log(board);
