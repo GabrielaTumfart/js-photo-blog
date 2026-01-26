@@ -22,7 +22,7 @@ h1 {
 
 /* Contenitore */
 
-board {
+.board {
     display: flex;
     align-items: center;
     margin-top: 50px;
