@@ -46,7 +46,10 @@
 
 
 //ora faccio la chiamata GET con axios
+
+//qui gestisco la risposta positiva
 axios.get("https://lanciweb.github.io/demo/api/pictures/")
     .then(response => {
-        
+// qui gestisco i dati, dunque: estraggo i dati della risposta
+        const data = response.data;
     })
