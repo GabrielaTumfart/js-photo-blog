@@ -34,7 +34,7 @@ h1 {
     position: relative;;
     width: 100px;
     height: 100px;
-    background-image: "./cork.png";
+    background-image: url("./cork.png");
     background-position: center;
 }
 
