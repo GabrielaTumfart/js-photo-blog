@@ -45,6 +45,15 @@
 //questi dati mi serviranno per genereare la card dinamica che serve per il milestone 3
 
 
+
+
+
+
+//ora seleziono il contenitore della card board sul CSS
+
+const board = document.getElementById(".board")
+
+
 //ora faccio la chiamata GET con axios
 
 //qui gestisco la risposta positiva
