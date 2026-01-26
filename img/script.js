@@ -68,7 +68,12 @@ axios.get("https://lanciweb.github.io/demo/api/pictures/")
         // e controllo i dati ricevuti
         console.table(data);
         
-    })
+  //creo un ciclo forEach su ogni elemento dell'array
+
+  data.forEach (item => {
+
+
+  
 
     //ora creo la struttura base della card
 
@@ -84,6 +89,12 @@ axios.get("https://lanciweb.github.io/demo/api/pictures/")
    card.innerHTML = '<img class="photo" src="" alt=""';
 
    card.innerHTML = '<p class="caption"</p>';
+
+});
+
+});
+
+
 
     
 
