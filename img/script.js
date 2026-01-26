@@ -75,6 +75,8 @@ axios.get("https://lanciweb.github.io/demo/api/pictures/")
     cosnt card = document.createElement("div")
 
     card.classList("photo-card");
+    console.log(card);
     
+
 
 
