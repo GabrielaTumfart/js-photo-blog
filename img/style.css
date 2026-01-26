@@ -38,6 +38,7 @@ h1 {
     height: 350px;
     background-image: url("./cork.png");
     background-position: center;
+    background-size: cover;
 }
 
 /* la puntina */
@@ -61,7 +62,7 @@ h1 {
     margin-top: 10px;
     font-size: small;
     text-align: center;
-    background-size: cover;
+    
 }
 
 /* aggiungo proprietà cover per migliorare riempimento img e gestione sfondo*/
