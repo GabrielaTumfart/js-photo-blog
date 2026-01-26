@@ -5,3 +5,8 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* impostazione generale del body*/ 
+body {
+    font-family: Edu Tas Beginner’, sans-serif;
+}
