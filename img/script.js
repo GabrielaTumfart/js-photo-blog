@@ -127,7 +127,7 @@ document.addEventListener("click", function (evento) {
     
     //devo creare una const per prendere l'elemento preciso su cui ho cliccato e salvarlo, quindi salvo in una variabile l'elemento che è stto cliccato
     const elementoCliccato = evento.target;
-    if (alementoCliccato.classList.contains("photo")) {
+    if (elementoCliccato.classList.contains("photo")) {
 
         //ora metto la foto cliccata dentro l'immagine grande dell'overlay
 
@@ -135,7 +135,7 @@ document.addEventListener("click", function (evento) {
 
         //faccio comparire l'overlay togliendo la classe hidden
 
-        overlay.classList.remove(hidden);
+        overlay.classList.remove("hidden");
 
 
 
