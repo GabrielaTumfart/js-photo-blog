@@ -20,7 +20,7 @@ h1 {
     text-align: center;
 }
 
-/* Contenitore */
+/* Contenitore: ho aggiunto gap e padding al CSS per creare gli spazi tra le card e lo spazio all'interno del bordo */ 
 
 .board {
     display: flex;
