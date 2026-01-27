@@ -150,7 +150,7 @@ closeButton.addEventListener("click", function (){
 
     //per l'ultimo aggiungo la classe hidden per nascondere l'overlay
 
-    overlay.classList.add(hidden);
+    overlay.classList.add("hidden");
 })
 
 
