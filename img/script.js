@@ -90,14 +90,18 @@ axios.get("https://lanciweb.github.io/demo/api/pictures/")
    card.innerHTML = '<p class="caption"</p>';
 
    */
+  
+  
 
    card.innerHTML = `
-   
-   <img class="pin" src="./pin.svg" alt="puntina">;
+   <img class="pin" src="./pin.svg" alt="puntina">
 
-   <img class="photo" src="${item.url}" alt="${item.title}">;
+   <img class="photo" src="${item.url}" alt="${item.title}">
 
-   <p class="caption">${item.title} ${item.date}</p>`; //aggiungo anche date dentro della caption per mostrare la data insieme al titolo nella card
+
+   <p class="caption">${item.title} ${item.date}</p>
+
+   `; //aggiungo anche date dentro della caption per mostrare la data insieme al titolo nella card
 
    //provo ad inserire la card dentro del contenitore board usando append
 
