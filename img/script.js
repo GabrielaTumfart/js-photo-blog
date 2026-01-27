@@ -133,7 +133,11 @@ document.addEventListener("click", function (evento) {
 
         preview.src = elementoCliccato.src;
 
-        
+        //faccio comparire l'overlay togliendo la classe hidden
+
+        overlay.classList.remove(hidden);
+
+
         
     }
 });
