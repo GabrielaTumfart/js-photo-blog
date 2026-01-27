@@ -99,6 +99,12 @@ axios.get("https://lanciweb.github.io/demo/api/pictures/")
 
    <p class="caption">${item.title} ${item.date}</p>`; //aggiungo anche date dentro della caption per mostrare la data insieme al titolo nella card
 
+   //provo ad inserire la card dentro del contenitore board usando append
+
+   board.appendChild(card);
+   console.log("la card è stata aggiunta con sucesso");
+   
+
 
 
 });
