@@ -121,6 +121,15 @@ const overlay = document.querySelector(".overlay");
 const closeButton = document.querySelector(".close-button");
 const preview = document.querySelector(".preview");
 
+//quando clicco una foto devo aprire overlay, dunque: aggiungo il click sulla pagina e creo if per controllare cosa è stato cliccato
+
+document.addEventListener("click", function (evento) {
+    
+    //devo creare una const per prendere l'elemento preciso su cui ho cliccato e salvarlo, quindi salvo in una variabile l'elemento che è stto cliccato
+    const elementoCliccato = evento.target;
+    if ()
+});
+
 
 
     
