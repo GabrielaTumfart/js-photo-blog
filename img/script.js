@@ -99,7 +99,7 @@ axios.get("https://lanciweb.github.io/demo/api/pictures/")
    <img class="photo" src="${item.url}" alt="${item.title}">
 
 
-   <p class="caption">${item.title} ${item.date}</p>
+   <p class="caption">${item.title} <br> ${item.date}</p>
 
    `; //aggiungo anche date dentro della caption per mostrare la data insieme al titolo nella card
 
