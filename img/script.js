@@ -138,9 +138,20 @@ document.addEventListener("click", function (evento) {
         overlay.classList.remove(hidden);
 
 
+
+
         
     }
 });
+
+//quando clicco sul bottone "chiudi" devo nascondere l'overlay, ovvero quando clicco Chiudi, l’overlay si nasconde.”
+
+closeButton.addEventListener("click", function (){
+
+    //per l'ultimo aggiungo la classe hidden per nascondere l'overlay
+
+    overlay.classList.add(hidden);
+})
 
 
 
