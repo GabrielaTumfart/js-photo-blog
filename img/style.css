@@ -6,6 +6,11 @@
     box-sizing: border-box;
 }
 
+/* classe per nascondere gli elementi */
+.hidden {
+    display: none;
+}
+
 /* impostazione generale del body*/ 
 body {
     
