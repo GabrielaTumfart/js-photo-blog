@@ -117,7 +117,7 @@ axios.get("https://lanciweb.github.io/demo/api/pictures/")
 
 //ora prendo gli elementi dell'overlay
 
-const overlay = document.querySelector(.overlay);
+const overlay = document.querySelector(".overlay");
 const closeButton = document.querySelector(".close-button");
 const preview = document.querySelector(".preview");
 
