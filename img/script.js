@@ -91,13 +91,13 @@ axios.get("https://lanciweb.github.io/demo/api/pictures/")
 
    */
 
-   card.innerHTML = 
+   card.innerHTML = `
    
    <img class="pin" src="./pin.svg" alt="puntina">;
 
    <img class="photo" src="${item.url}" alt="${item.title}">;
 
-   <p class="caption"${item.title} </p>';
+   <p class="caption">${item.title} </p>`;
 
 
 
