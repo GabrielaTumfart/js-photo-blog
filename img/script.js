@@ -50,7 +50,7 @@
 
 
 //ora seleziono il contenitore della card board sul CSS (Prima avevo scritto getElementById(board) ma era sbagliato perché getElementById richiede una stringa e funziona solo con gli id. Il mio elemento invece aveva una classe .board, quindi ho usato querySelector(”.board”) che accetta i selettori CSS.)
-const board = document.querySelector(".board") 
+const board = document.querySelector(".board")
 
 //controllo che il contenitore esista
 console.log(board);
@@ -62,38 +62,38 @@ console.log(board);
 //qui gestisco la risposta positiva
 axios.get("https://lanciweb.github.io/demo/api/pictures/")
     .then(response => {
-// qui gestisco i dati, dunque: estraggo i dati della risposta
+        // qui gestisco i dati, dunque: estraggo i dati della risposta
         const data = response.data;
 
         // e controllo i dati ricevuti
         console.table(data);
-        
-  //creo un ciclo forEach su ogni elemento dell'array
 
-  data.forEach (item => {
+        //creo un ciclo forEach su ogni elemento dell'array
 
-    //ora creo la struttura base della card
+        data.forEach(item => {
 
-    const card = document.createElement("div")
+            //ora creo la struttura base della card
 
-    card.classList.add("photo-card");
-    console.log(card);
+            const card = document.createElement("div")
 
-    //inizio l'inserimento del contenuto nella card
+            card.classList.add("photo-card");
+            console.log(card);
 
-   /* 
-   
-   card.innerHTML =  '<img class="pin" src="./pin.svg" alt="puntina">';
+            //inizio l'inserimento del contenuto nella card
 
-   card.innerHTML = '<img class="photo" src="$" alt=""';
+            /* 
+            
+            card.innerHTML =  '<img class="pin" src="./pin.svg" alt="puntina">';
+         
+            card.innerHTML = '<img class="photo" src="$" alt=""';
+         
+            card.innerHTML = '<p class="caption"</p>';
+         
+            */
 
-   card.innerHTML = '<p class="caption"</p>';
 
-   */
-  
-  
 
-   card.innerHTML = `
+            card.innerHTML = `
    <img class="pin" src="./pin.svg" alt="puntina">
 
    <img class="photo" src="${item.url}" alt="${item.title}">
@@ -103,17 +103,17 @@ axios.get("https://lanciweb.github.io/demo/api/pictures/")
 
    `; //aggiungo anche date dentro della caption per mostrare la data insieme al titolo nella card
 
-   //provo ad inserire la card dentro del contenitore board usando append
+            //provo ad inserire la card dentro del contenitore board usando append
 
-   board.appendChild(card);
-   console.log("la card è stata aggiunta con sucesso");
-   
-
+            board.appendChild(card);
+            console.log("la card è stata aggiunta con sucesso");
 
 
-});
 
-});
+
+        });
+
+    });
 
 //ora prendo gli elementi dell'overlay
 
@@ -124,7 +124,7 @@ const preview = document.querySelector(".preview");
 //quando clicco una foto devo aprire overlay, dunque: aggiungo il click sulla pagina e creo if per controllare cosa è stato cliccato
 
 document.addEventListener("click", function (evento) {
-    
+
     //devo creare una const per prendere l'elemento preciso su cui ho cliccato e salvarlo, quindi salvo in una variabile l'elemento che è stto cliccato
     const elementoCliccato = evento.target;
     if (elementoCliccato.classList.contains("photo")) {
@@ -140,13 +140,13 @@ document.addEventListener("click", function (evento) {
 
 
 
-        
+
     }
 });
 
 //quando clicco sul bottone "chiudi" devo nascondere l'overlay, ovvero quando clicco Chiudi, l’overlay si nasconde.”
 
-closeButton.addEventListener("click", function (){
+closeButton.addEventListener("click", function () {
 
     //per l'ultimo aggiungo la classe hidden per nascondere l'overlay
 
@@ -155,7 +155,7 @@ closeButton.addEventListener("click", function (){
 
 
 
-    
+
 
 
 
